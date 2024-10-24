@@ -43,7 +43,6 @@ public class ParenthesesValidator {
     public static void main(String[] args) {
         ParenthesesValidator validator = new ParenthesesValidator();
 
-        // Test cases
         System.out.println(validator.isValidParentheses("()"));       // true
         System.out.println(validator.isValidParentheses("()[]{}"));   // true
         System.out.println(validator.isValidParentheses("(]"));       // false
